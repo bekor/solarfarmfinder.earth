@@ -1,6 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,nextjs,react,visualstudiocode,pycharm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,nextjs,react,visualstudiocode,pycharm+all
-
+frontend/api_key.js
 ### NextJS ###
 # dependencies
 /node_modules
