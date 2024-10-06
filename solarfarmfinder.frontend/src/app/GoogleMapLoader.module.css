@@ -1,6 +1,7 @@
 .googleMap {
-    width: 400px;
-    height: 1200px;
+  width: 400px;
+  height: 1200px;
+  margin: auto;
 }
 
 .gisLayer {
