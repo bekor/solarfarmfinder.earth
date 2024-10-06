@@ -163,8 +163,3 @@ a.secondary {
     filter: invert();
   }
 }
-
-.googleMap {
-  width: 400px;
-  height: 1200px;
-}

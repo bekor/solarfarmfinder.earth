@@ -2,6 +2,7 @@
 
 import {ReactNode} from "react";
 import {Libraries, useJsApiLoader} from "@react-google-maps/api";
+import MyMapComponent from './GISLayer';
 import {
     APIProvider,
     Map,
@@ -27,5 +28,7 @@ export default function GoogleMapLoader() {
             >
             </Map>
         </APIProvider>
-        </div>);
+        <MyMapComponent />
+        </div>
+        );
 }
