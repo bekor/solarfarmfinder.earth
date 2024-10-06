@@ -28,8 +28,13 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                DEROC.AI
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="https://www.deorc-ai.com/"
+                target="_blank"
+              >
+                DEORC-AI
               </a>
             </li>
             <li className="nav-item">
@@ -42,7 +47,11 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/deorc-ai/?tab=members"
+                target="_blank"
+              >
                 About us
               </a>
             </li>

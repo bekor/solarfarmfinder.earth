@@ -7,10 +7,11 @@ export default function Footer() {
           reserved.
         </p>
         <div className="mt-2">
-          <a href="/about" className="text-light mx-3">
-            About Us
-          </a>
-          <a href="/contact" className="text-light mx-3">
+          <a
+            href="mailto:kta@deorc-ai.com"
+            className="text-light mx-3"
+            rel="noopener noreferrer"
+          >
             Contact
           </a>
           <a
