@@ -14,7 +14,7 @@ export default function Footer() {
             Contact
           </a>
           <a
-            className="nav-link disabled"
+            // className="nav-link disabled"
             className="text-light mx-3"
             href="https://github.com/bekor/solarfarmfinder.earth/tree/main"
             target="_blank"
