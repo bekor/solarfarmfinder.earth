@@ -5,6 +5,7 @@ import GoogleMapsLoader from "@/app/GoogleMapLoader";
 import DataView from "@/app/DataView";
 import NavBar from "@/app/NavBar";
 import GISLayer from "@/app/GISLayer";
+import Footer from "./footer";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <GISLayer />
         <DataView />
       </main>
-      <footer></footer>
+      <Footer />
     </div>
 
     // <div className={styles.page}>
