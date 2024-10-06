@@ -1,10 +1,19 @@
+// import logo from "solarfarmfinder.frontend/src/app/logo.png";
+import Image from "next/image";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        {/* <img src="/logo.png" width={50} height={50} alt="logo" /> */}
+        <Image
+          src="/logo.png"
+          alt="logo of solar farm finder"
+          width={70}
+          height={65}
+        />
+        {/* <a className="navbar-brand" href="#">
           Solar Farm Finder
-        </a>
+        </a> */}
         <button
           className="navbar-toggler"
           type="button"
