@@ -20,22 +20,21 @@ export default function NavBar() {
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Team name
+                DEROC.AI
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://www.spaceappschallenge.org/nasa-space-apps-2024/"
+                target="_blank"
+              >
                 About this challenge
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
                 About us
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
-                Github
               </a>
             </li>
           </ul>

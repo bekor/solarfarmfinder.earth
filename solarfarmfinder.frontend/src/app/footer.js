@@ -13,8 +13,13 @@ export default function Footer() {
           <a href="/contact" className="text-light mx-3">
             Contact
           </a>
-          <a href="/privacy" className="text-light mx-3">
-            Privacy Policy
+          <a
+            className="nav-link disabled"
+            className="text-light mx-3"
+            href="https://github.com/bekor/solarfarmfinder.earth/tree/main"
+            target="_blank"
+          >
+            Github
           </a>
         </div>
       </div>
