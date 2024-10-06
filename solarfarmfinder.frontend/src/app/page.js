@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <GoogleMapsLoader />
         </div>
-        <GISLayer />
+        {/*<GISLayer />*/}
         <DataView />
       </main>
       <Footer />
